@@ -1,0 +1,106 @@
+.entry-form {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+.form-container {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.entry-form form {
+  font-size: 16px;
+}
+
+
+.entry-form form input,
+.entry-form form select {
+  font-size: 16px;
+  padding: 10px;
+  width: 30%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+
+.entry-form form button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.entry-form .entry-list {
+  margin-top: 20px;
+}
+
+
+.entry-form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.entry-form th,
+.entry-form td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.entry-form th {
+  background-color: green;
+  color: white;
+}
+
+
+.entry-form .pagination {
+  margin-top: 10px;
+}
+
+.entry-form .pagination button {
+  font-size: 14px;
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+
+.entry-form .buttons {
+  margin-bottom: 10px;
+}
+
+.entry-form .buttons button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+  .entry-form form input,
+  .entry-form form select {
+    font-size: 16%;
+    padding: 8px;
+  }
+  
+  .entry-form form button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
